@@ -12,7 +12,7 @@ print()
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
 
-df1= var_head.loc[var_head["Product line"]=="Health and beauty"]  # LOC HELPS US EASILY ACCESSING THE COLUMNS BY NAMES
+
 
 df2=var_head['Payment']= var_head["Payment"].replace(["Cash","Ewallet","Credit card"],["upi","paytm","phonpe"]) #I REPLACE ALL THE VALUES IN "PAYMENT COLUMN" 
 
